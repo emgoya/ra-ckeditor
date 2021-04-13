@@ -1,0 +1,26 @@
+{
+  "name": "@emgoya/ra-ckeditor",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@ckeditor/ckeditor5-build-classic": "^27.0.0",
+    "@ckeditor/ckeditor5-react": "^3.0.2",
+    "raw-loader": "3"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.8.0",
+    "@babel/core": "7.8.0",
+    "@babel/preset-react": "7.8.0"
+  },
+  "scripts": {
+    "develop": "babel src --watch --out-dir lib",
+    "build": "rm -rf lib && babel src --out-dir lib"
+  },
+  "files": [
+    "lib/*"
+  ],
+  "peerDependencies": {
+    "react-admin": "^3.1.2"
+  }
+}
