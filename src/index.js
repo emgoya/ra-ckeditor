@@ -19,11 +19,13 @@ const AdvancedInput = props => {
   };
 
   const editorRef = useRef();
+
+  const { config } = props || {};
   
   return (
         <CKEditor
           editor={ClassicEditor}
-          // config={CKEditorConfiguration}
+          config={config}
           data={value}
           onInit={editor => {
             //console.log('Editor is ready to use!', editor);
