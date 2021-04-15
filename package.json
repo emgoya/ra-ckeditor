@@ -1,7 +1,6 @@
 {
   "name": "ra-ckeditor",
-  "version": "1.0.4",
-  "main": "index.js",
+  "version": "1.0.5",
   "repository": "https://github.com/emgoya/ra-ckeditor.git",
   "author": "Esteban Goya <emgoya@gmail.com>",
   "license": "MIT",
@@ -12,6 +11,7 @@
   "files": [
     "lib/*"
   ],
+  "man": "lib/index.js",
   "dependencies": {
     "@ckeditor/ckeditor5-alignment": "^27.0.0",
     "@ckeditor/ckeditor5-build-classic": "^27.0.0",
